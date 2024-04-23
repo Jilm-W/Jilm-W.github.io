@@ -2,18 +2,12 @@
 
 /* 全局样式 */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: sans-serif;
   background: linear-gradient(to right, #6dd5ed, #2193b0);
   margin: 0;
   padding: 0;
   line-height: 1.6;
   color: #333;
-}
-
-/* 微渐变背景 */
-header, footer {
-  background: #f7f7f7;
-  background-image: linear-gradient(315deg, #f7f7f7 0%, #dcddde 74%);
 }
 
 /* 圆角边框 */
@@ -22,6 +16,11 @@ header, article, footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* 微渐变背景 */
+header, footer {
+  background: #f7f7f7;
+  background-image: linear-gradient(315deg, #f7f7f7 0%, #dcddde 74%);
+}
 /* 文章容器 */
 .article-container {
   display: grid;
@@ -63,7 +62,7 @@ article .article-content {
 /* 链接样式 */
 a {
   text-decoration: none;
-  color: #007bff;
+  color: #1873ce;
 }
 
 a:hover {
@@ -73,6 +72,7 @@ a:hover {
 /* 悬停效果 */
 nav a:hover, article:hover {
   text-decoration: none;
+  color:#333
 }
 
 /* 页脚样式 */
