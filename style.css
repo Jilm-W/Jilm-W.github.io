@@ -93,14 +93,6 @@ footer {
 }
 /* style.css */
 
-/* 默认样式，适用于桌面 */
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  padding: 0;
-  list-style: none;
-}
-
 /* 移动设备上的样式 */
 @media (max-width: 768px) {
   nav ul {
