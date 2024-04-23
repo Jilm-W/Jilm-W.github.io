@@ -92,14 +92,3 @@ footer {
   }
 }
 /* style.css */
-
-/* 移动设备上的样式 */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin-bottom: 10px;
-  }
-}
