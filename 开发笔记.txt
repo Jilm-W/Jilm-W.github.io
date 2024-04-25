@@ -1,0 +1,44 @@
+回宿舍也不知道要做什么，不如WEB
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;   文字居中
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;   设置字体
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+font-size  文字大小
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+超害怕现在，要被赶走了，可想把题做完
+虚惊一场，老师还是很好的，只是让我十点把灯关了
+
+添加 DOCTYPE 声明、语言设置为英语的 html 元素、 head 和 body 元素。
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+<body>
+</body>
+
